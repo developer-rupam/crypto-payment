@@ -7,16 +7,18 @@ const merchantSchema = new mongoose.Schema({
     email : {
         type : String,
         required : true,
-    },
-    name : {
-        type : String,
-        required : true,
+        unique: true
     },
     phone : {
         type : String,
         required : true,
+        unique: true
     },
     logo : {
+        type : String,
+        required : false,
+    },
+    password : {
         type : String,
         required : true,
     },
