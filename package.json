@@ -1,0 +1,19 @@
+{
+  "name": "crypto-payment",
+  "version": "1.0.0",
+  "description": "backend development for crypto payment gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-rupam/crypto-payment.git"
+  },
+  "author": "Rupam Jana (developer.rupam@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/developer-rupam/crypto-payment/issues"
+  },
+  "homepage": "https://github.com/developer-rupam/crypto-payment#readme"
+}
