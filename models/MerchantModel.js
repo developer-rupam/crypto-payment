@@ -16,7 +16,7 @@ const merchantSchema = new mongoose.Schema({
         type : String,
         required : true,
     },
-    profile_pic : {
+    logo : {
         type : String,
         required : true,
     },
