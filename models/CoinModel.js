@@ -8,7 +8,7 @@ const coinSchema = new mongoose.Schema({
         type : String,
         required : true,
     },
-    image : {
+    logo : {
         type : String,
         required : true,
     },
